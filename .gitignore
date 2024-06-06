@@ -1,0 +1,6 @@
+outputs
+datasets/
+omniglue/
+LightGlue/
+SuperGluePretrainedNetwork/
+wildlife-datasets/
