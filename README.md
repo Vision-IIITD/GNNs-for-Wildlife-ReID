@@ -25,16 +25,14 @@ conda env create --file conda-env.yml
 conda activate wildlife10
 ```
 
-2. 
-Clone the relevant repositories:
+2. Clone the relevant repositories:
 ```bash
 git clone https://github.com/google-research/omniglue.git
 git clone https://github.com/magicleap/SuperGluePretrainedNetwork.git
 git clone https://github.com/cvg/LightGlue.git
 ```
 
-3.
-Initialize the repositories and our modifications to them:
+3. Initialize the repositories and our modifications to them:
 ```bash
 pip install -e omniglue/
 pip install -e SuperGluePretrainedNetwork/
