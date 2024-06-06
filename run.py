@@ -238,7 +238,7 @@ def get_matches_superglue(image0: torch.Tensor, image1: torch.Tensor, device: to
     return points0, points1, match_scores
     
 
-def get_matches_superglue(image0: torch.Tensor, image1: torch.Tensor, device: torch.device, detector: str, omniglue_matcher: omniglue.OmniGlue) -> Tuple[np.ndarray, np.ndarray, np.ndarray]:
+def get_matches_omniglue(image0: torch.Tensor, image1: torch.Tensor, device: torch.device, detector: str, omniglue_matcher: omniglue.OmniGlue) -> Tuple[np.ndarray, np.ndarray, np.ndarray]:
     """
     Get matches using OmniGlue.
 

@@ -35,11 +35,10 @@ git clone https://github.com/cvg/LightGlue.git
 3. Initialize the repositories and our modifications to them:
 ```bash
 pip install -e omniglue/
-pip install -e SuperGluePretrainedNetwork/
 pip install -e LightGlue/
-mv replacements/sg_utils.py SuperGluePretrainedNetwork/models/utils.py
-mv replacements/sg_match_pairs.py SuperGluePretrainedNetwork/match_pairs.py
-mv replacements/og_extract.py omniglue/src/omniglue/omniglue_extract.py
+cp replacements/sg_utils.py SuperGluePretrainedNetwork/models/utils.py
+cp replacements/sg_match_pairs.py SuperGluePretrainedNetwork/match_pairs.py
+cp replacements/og_extract.py omniglue/src/omniglue/omniglue_extract.py
 ```
 
 # Running the experiments
