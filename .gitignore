@@ -4,3 +4,7 @@ omniglue/
 LightGlue/
 SuperGluePretrainedNetwork/
 wildlife-datasets/
+insightface
+__pycache__/
+_wandb/
+wandb/

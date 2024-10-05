@@ -1,0 +1,3 @@
+# MegaDetector
+ 
+The MegaDetector model is a pre-trained foundation object detection model that can detect animals in images. This directory contains the code for running the MegaDetector model on images. We also provide scripts for converting MegaDetector's output to the standard COCO format. Additionally, we provide the annotation json files for the datasets from Wildlife Institute of India (WII ReID).
