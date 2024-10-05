@@ -1,6 +1,6 @@
-# ReID-with-graphs
+# GNNs-for-Wildlife-ReID
 
-Code for running and evaluating baseline experiments for Wildlife ReID using graph neural network (GNN)-based methods. The code uses the SuperGlue, LightGlue, and OmniGlue models for feature matching and the SIFT and SuperPoint for feature extraction. We use MegaDetector model for object detection. 
+This repository contains the codebase for training Graph Neural Network-based methods for Wildlife ReIdentification (ReID). We present code for running and evaluating baseline experiments using the SuperGlue, LightGlue, and OmniGlue models for feature matching and the SIFT and SuperPoint for feature extraction. We use MegaDetector model for object detection. 
 
 We also use MegaDescriptor and ArcFace from the InsightFace repository to train an end-to-end model for feature extraction and matching.
 
